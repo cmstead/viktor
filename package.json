@@ -1,0 +1,38 @@
+{
+  "name": "viktor",
+  "version": "0.0.0",
+  "description": "Viktor.js is a Node-based static site generator using JSON and Handlebars.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmstead/viktor.git"
+  },
+  "keywords": [
+    "viktor",
+    "viktor.js",
+    "node",
+    "JSON",
+    "handlebars",
+    "static",
+    "site",
+    "site",
+    "generator",
+    "site",
+    "builder"
+  ],
+  "author": "Chris Stead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmstead/viktor/issues"
+  },
+  "homepage": "https://github.com/cmstead/viktor",
+  "dependencies": {
+    "async": "^0.9.0",
+    "handlebars": "^3.0.3",
+    "jfp": "^1.2.2",
+    "rimraf": "^2.3.3"
+  }
+}
