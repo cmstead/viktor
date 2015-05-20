@@ -23,11 +23,19 @@ function getTemplateFiles(filenames, callback){
 }
 
 function getTemplates(callback){
-    fs.readdir('templates', function(error, filenames){
+
+    function resolveRead(error, filenames){
         if(!error){
             getTemplateFiles(filenames, callback);
         } else {
             callback(error, null);
         }
-    });
+    }
+
+    fs.readdir('templates', resolveRead);
+
 }
+
+module.exports = {
+    getTemplates: getTemplates
+};
